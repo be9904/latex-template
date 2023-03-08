@@ -1,0 +1,58 @@
+\section{Performance Evaluation}
+% \IEEEPARstart{T}{his} demo file is intended to serve as a ``starter file''
+% for IEEE Computer Society journal papers produced under \LaTeX\ using
+% IEEEtran.cls version 1.7 and later.
+% % You must have at least 2 lines in the paragraph with the drop letter
+% % (should never be an issue)
+% I wish you the best of success.
+% \hfill mds
+% \hfill January 11, 2007
+
+\subsection{Experimental Setup}
+Specify the experimental setup (e.g., OS, Linux version,
+kernel version, CPU spec, DRAM size, storage devices, etc.) 
+and benchmark setup (e.g., database size, \# of concurrent threads, 
+running time).
+
+System Setup
+\begin{center}
+    \begin{tabular}{ | c | c | }
+    \hline
+        \textbf{Type} & \textbf{Specification} \\
+    \hline
+        OS & Ubuntu 18.04.6 LTS \\
+    \hline
+        CPU & \makecell{12th Gen Intel(R) Core(TM) \\ i7-12650H 
+        (Total 2 cores)} \\
+    \hline
+        Memory & 4GB \\
+    \hline
+        Kernel & 5.4.0-84-generic \\
+    \hline
+        Data Device & Samsung PM991a SSD 1TB \\
+    \hline
+    \end{tabular}
+\end{center}
+%
+% Benchmark Setup templates
+Benchmark Setup
+\begin{center}
+    \begin{tabular}{ | c | c | }
+    \hline
+        \textbf{Type} & \textbf{Configuration} \\
+    \hline
+        DB Size & 2GB (20 warehouse) \\
+    \hline
+        Buffer Pool Size & 500MB (25\% of DB Size) \\
+    \hline
+        Benchmark Tool & tpcc-mysql \\
+    \hline
+        Runtime & 1200s \\
+    \hline
+        Connections & 8 \\
+    \hline
+    \end{tabular}
+\end{center}
+
+\subsection{Experimental Results}
+Present experimental results and analyze the results yourself.
